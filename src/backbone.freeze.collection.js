@@ -55,7 +55,7 @@ var erroringMethods = {
     pop:            'pop items from',
     unshift:        'unshift items to',
     shift:          'shift items from',
-    fetch:          'fetc',
+    fetch:          'fetch',
     create:         'create items in',
     on:             'listen to',
     once:           'listen to',

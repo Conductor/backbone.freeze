@@ -36,7 +36,7 @@ var erroringMethods = {
     changedAttributes:  'view changed attributes of',
     previous:           'view previous values of',
     previousAttributes: 'view previous values of',
-    fetch:              'fetc',
+    fetch:              'fetch',
     save:               'save',
     destroy:            'destroy',
     url:                'get the server url of',

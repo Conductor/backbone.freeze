@@ -55,7 +55,7 @@ var erroringMethods = {
     pop:            'pop items from',
     unshift:        'unshift items to',
     shift:          'shift items from',
-    fetch:          'fetc',
+    fetch:          'fetch',
     create:         'create items in',
     on:             'listen to',
     once:           'listen to',
@@ -85,7 +85,7 @@ var FreezeCollection = Backbone.Collection.extend({
         // Call the normal backbone collection constructor
         Backbone.Collection.prototype.constructor.call(this, models, options);
 
-        // Set the functions that the constructor needs to work to no longer work if they would 
+        // Set the functions that the constructor needs to work to no longer work if they would
         // be modifying the collection, after the constructor is done using it
         _.each(postConstructErroringMethods, function(message, methodName) {
             this[methodName] = function() {
@@ -109,7 +109,7 @@ var FreezeCollection = Backbone.Collection.extend({
      toJSON,
      slice,
      get,
-     at, 
+     at,
      where,
      findWhere,
      pluck,
@@ -125,4 +125,3 @@ _.each(erroringMethods, function(message, methodName) {
 });
 
 module.exports = FreezeCollection;
-

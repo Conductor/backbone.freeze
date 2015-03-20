@@ -18,7 +18,7 @@ describe('Freeze Model', function() {
             { name: 'changedAttributes',  error: 'view changed attributes of'},
             { name: 'previous',           error: 'view previous values of'},
             { name: 'previousAttributes', error: 'view previous values of'},
-            { name: 'fetch',              error: 'fetc'},
+            { name: 'fetch',              error: 'fetch'},
             { name: 'save',               error: 'save'},
             { name: 'destroy',            error: 'destroy'},
             { name: 'url',                error: 'get the server url of'},

@@ -19,7 +19,7 @@ describe('Freeze Collection', function() {
             { name: 'pop',               error: 'pop items from'},
             { name: 'unshift',           error: 'unshift items to'},
             { name: 'shift',             error: 'shift items from'},
-            { name: 'fetch',             error: 'fetc'},
+            { name: 'fetch',             error: 'fetch'},
             { name: 'create',            error: 'create items in'},
             { name: 'on',                error: 'listen to'},
             { name: 'once',              error: 'listen to'},

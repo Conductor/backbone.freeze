@@ -141,7 +141,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	    pop:            'pop items from',
 	    unshift:        'unshift items to',
 	    shift:          'shift items from',
-	    fetch:          'fetc',
+	    fetch:          'fetch',
 	    create:         'create items in',
 	    on:             'listen to',
 	    once:           'listen to',
@@ -171,7 +171,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	        // Call the normal backbone collection constructor
 	        Backbone.Collection.prototype.constructor.call(this, models, options);
 
-	        // Set the functions that the constructor needs to work to no longer work if they would 
+	        // Set the functions that the constructor needs to work to no longer work if they would
 	        // be modifying the collection, after the constructor is done using it
 	        _.each(postConstructErroringMethods, function(message, methodName) {
 	            this[methodName] = function() {
@@ -195,7 +195,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	     toJSON,
 	     slice,
 	     get,
-	     at, 
+	     at,
 	     where,
 	     findWhere,
 	     pluck,
@@ -211,7 +211,6 @@ return /******/ (function(modules) { // webpackBootstrap
 	});
 
 	module.exports = FreezeCollection;
-
 
 
 /***/ },
@@ -256,7 +255,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	    changedAttributes:  'view changed attributes of',
 	    previous:           'view previous values of',
 	    previousAttributes: 'view previous values of',
-	    fetch:              'fetc',
+	    fetch:              'fetch',
 	    save:               'save',
 	    destroy:            'destroy',
 	    url:                'get the server url of',

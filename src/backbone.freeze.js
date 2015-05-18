@@ -15,4 +15,5 @@ var Freeze = {
     }
 };
 
+Backbone.Freeze = Freeze;
 module.exports = Freeze;

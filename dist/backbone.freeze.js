@@ -71,6 +71,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	    }
 	};
 
+	Backbone.Freeze = Freeze;
 	module.exports = Freeze;
 
 

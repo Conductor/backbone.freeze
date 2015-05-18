@@ -1,6 +1,6 @@
 {
   "name": "backbone.freeze",
-  "version": "0.1.10",
+  "version": "0.1.11",
   "description": "Immutable Collections and Models for Backbone.js",
   "main": "dist/backbone.freeze.js",
   "scripts": {

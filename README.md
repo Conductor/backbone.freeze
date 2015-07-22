@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/conductor/backbone.freeze.svg)](https://travis-ci.org/benmanbs/backbone.freeze)
+[![Build Status](https://travis-ci.org/conductor/backbone.freeze.svg)](https://travis-ci.org/conductor/backbone.freeze)
 
 # backbone.freeze
 Immutable Collections and Models for Backbone.js. Freeze is designed to hold collections/models that will never change during the lifespan of your JS. 
